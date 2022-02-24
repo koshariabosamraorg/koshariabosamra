@@ -134,6 +134,7 @@ body {
 
 @media (max-width: 991px) {
   html, body {
+      
     overflow-x: hidden;
   }
   .mobile-top-fix {
@@ -598,9 +599,13 @@ font-family: 'Aref Ruqaa', serif; font-size: 50px;
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-                font-family: 'Aref Ruqaa', serif;
+          font-family: 'Aref Ruqaa', serif; font-size: 20px;
 
-    color: #ffe800!important;
+  color: #624226!important;
+    text-shadow: -1px 1px 2px #ffe800,
+				  1px 1px 2px #ffe800,
+				  1px -1px 0 #ffe800,
+				  -1px -1px 0 #ffe800;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -609,8 +614,8 @@ font-family: 'Aref Ruqaa', serif; font-size: 50px;
   .header-area {
       
     background-color: #f7f7f7;
-    padding: 0px 15px;
-    height: 100px;
+    padding: 0px 0px;
+    height: 130px;
     box-shadow: none;
     text-align: center;
   }
@@ -716,7 +721,7 @@ banner
 */
 
 #top {
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 #top .col-lg-4,
@@ -747,7 +752,7 @@ font-family: 'Aref Ruqaa', serif;  color: #624226;
 				  1px 1px 2px #fff,
 				  1px -1px 0 #fff,
 				  -1px -1px 0 #fff;
-  font-size: 74px;
+  font-size: 64px;
   font-weight: 700;
 }
 
@@ -1374,7 +1379,7 @@ text-align: center;
 
 #reservation .phone span a,
 #reservation .message span a {
-  font-size: 24px;
+  font-size: 18px;
   color: #624226;
   transition: all .3s;
 }
@@ -1503,7 +1508,7 @@ text-align: center;
 }
 
 #offers #tabs ul {
-    	min-width: 696px;
+    	
 	list-style: none;
 	padding-top: 20px;
   
@@ -1511,7 +1516,7 @@ text-align: center;
 #offers #tabs ul li {
     
   display: inline-block;
-  margin: 0px 15px;
+  margin: 0px 0px;
 }
 #offers #tabs ul li:last-child {
     
@@ -1522,7 +1527,7 @@ text-align: center;
   margin-left: 0px;
 }
 #offers #tabs ul li a {
-    font-size: 28px;
+    font-size: 18px;
  font-family: 'Aref Ruqaa', serif;  
 text-align: center;
   text-transform: capitalize;
@@ -1540,7 +1545,7 @@ text-align: center;
   margin: 0 auto 15px auto;
 }
 #offers #tabs ul .ui-tabs-active a {
-    font-size: 28px;
+    font-size: 18px;
  font-family: 'Aref Ruqaa', serif;  
 text-align: center;
   color: #ffe800;
@@ -1701,7 +1706,7 @@ responsive
   }
   #top .left-content {
     text-align: center;
-    padding: 25% 0px;
+    padding: 65% 0px;
   }
   #about .right-content {
     margin-left: 0px;
